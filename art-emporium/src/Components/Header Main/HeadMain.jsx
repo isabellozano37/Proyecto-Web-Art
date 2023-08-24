@@ -31,7 +31,7 @@ function ButtonOptions() {
 export default function Headermain() {
 
   const iniciarSesion = () => {
-    alert("Haz hecho click en Iniciar sesión");
+    alert("Haz hecho clic en Iniciar sesión");
   };
    
   return (
