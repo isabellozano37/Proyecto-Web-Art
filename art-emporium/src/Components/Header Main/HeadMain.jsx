@@ -1,7 +1,38 @@
 import "../Header Main/HeadMain.css";
+import React, { useState } from "react";
 import Logo from "../../img/Logo.png";
 
+function ButtonOptions() {
+  const [optionsVisible, setOptionsVisible] = useState(false);
+
+  const toggleOptions = () => {
+    setOptionsVisible(!optionsVisible);
+  };
+
+  const handleOptionClick = (option) => {
+    alert("Seleccionaste " + option + ".");
+    setOptionsVisible(false);
+  };
+
+  return (
+    <div>
+      <button className="header-button" onClick={toggleOptions}>Registrarse</button>
+      {optionsVisible && (
+        <div className="header-button-options">
+          <div className="option" onClick={() => handleOptionClick('Nuevo exponente')}>Nuevo exponente</div>
+          <div className="option" onClick={() => handleOptionClick('Nuevo comprador')}>Nuevo comprador</div>
+        </div>
+      )}
+    </div>
+    
+  );
+}
+
 export default function Headermain() {
+
+  const iniciarSesion = () => {
+    alert("Haz hecho click en Iniciar sesión");
+  };
    
   return (
     <header>
@@ -11,8 +42,8 @@ export default function Headermain() {
       </div>
 
       <div className="divButton">
-      <button className="header-button header-button-Registrar">Registrarse</button>
-      <button className="header-button header-button-IniciarSeion">Iniciar Sesión</button>
+      <ButtonOptions />
+      <button className="header-button" onClick={iniciarSesion}>Iniciar Sesión</button>
       </div>
 
     </header>

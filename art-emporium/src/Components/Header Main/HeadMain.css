@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 } 
 
 .header-button {
@@ -47,5 +48,26 @@ header {
   
   .header-button:hover {
     background-color: #6b6b6b; 
+  }
+
+  .header-button-options {
+    position: absolute;
+    left: 27%;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  }
+
+  .option {
+    padding: 5px 10px;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .option:hover {
+    background-color: #6b6b6b;
   }
 
