@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import BodyMain from './Components/BodyMain/Body.jsx'
 import './index.css'
+import Headermain from './Components/Header Main/HeadMain';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <>
+<Headermain />
+
 <BodyMain />
 </>
 )
