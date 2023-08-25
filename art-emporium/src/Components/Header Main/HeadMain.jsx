@@ -33,7 +33,7 @@ export default function Headermain() {
   const iniciarSesion = () => {
     alert("Haz hecho clic en Iniciar sesión");
   };
-   
+
   return (
     <header>
       
