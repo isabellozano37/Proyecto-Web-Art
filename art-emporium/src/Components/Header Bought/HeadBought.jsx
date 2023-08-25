@@ -10,8 +10,9 @@ export default function Headermain() {
       </div>
 
       <div className="divButton">
-      <button className="header-button header-button-Registrar">Subir arte</button>
-      <button className="header-button header-button-IniciarSeion">Mi arte</button>
+      <button class="active-header-button">Carrito de compra</button>
+      <button class="header-button">Home</button>
+      <button class="header-button">Arte</button>
       </div>
 
     </header>
