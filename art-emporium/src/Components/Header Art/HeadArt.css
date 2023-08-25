@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+ .headerArt {
+    height: 100px;
+    background: #000000;
+    padding: 0 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-LogoCompany {
+    width: 130px;
+    height: 100px;
+  }
+  
+  .divLogo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divButton{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  } 
+  
+  .Arte {
+    padding: 1.5% 10%;
+    font-size: larger;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 8px; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 25%;
+  }
+  .Home{
+    padding: 1.5% 10%;
+    font-size: larger;
+    background-color: #000000;
+    border: none;
+    border-radius: 8px; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 15%;
+  }
+  
+  .Carritocompra {
+    padding: 3% 4%;
+    height: 55%;
+    border: none;
+    border-radius: 8px; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10%;
+  }
+  .arte:hover {
+    background-color: #c7baba; 
+  }
