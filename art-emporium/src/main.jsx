@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom/client'
+import React from 'react'
 import './index.css'
-import Headermain from './Components/Header Main/HeadMain';
+import HeaderBought from './Components/Header Bought/HeadBought';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <>
-<Headermain />
+<HeaderBought />
 </>
 )
