@@ -9,11 +9,11 @@ import HeaderArt from './Components/Header Art/HeadArt';
 import FormExpo from './Components/Form NewExpo/FormExpo'
 import FormBou from './Components/Form NewBou/FormBou.jsx'
 
-/*ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <Headermain />
 </>
-)*/
+)
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
@@ -35,8 +35,8 @@ import FormBou from './Components/Form NewBou/FormBou.jsx'
   </>
 )*/
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+/*ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <FormBou />
     </>
-)
+)*/
