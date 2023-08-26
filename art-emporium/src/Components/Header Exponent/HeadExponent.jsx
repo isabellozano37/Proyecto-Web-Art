@@ -1,7 +1,7 @@
 import './HeadExponent.css'
 import Logo from "../../img/Logo.png";
 
- export default function Header (){
+ export default function HeaderExponent (){
     return (
       <>
       <header className="header">
