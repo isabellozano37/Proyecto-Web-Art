@@ -38,9 +38,9 @@ export default function FormExpo() {
                   <Form.Label>Apellidos</Form.Label>
                   <Form.Control type="Name" placeholder="Enter LastName" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                <Form.Group className="mb-3" controlId="formGridAddress2">
+                  <Form.Label>Direction</Form.Label>
+                  <Form.Control placeholder="Apartment, studio, or floor" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Numero de Telefono</Form.Label>

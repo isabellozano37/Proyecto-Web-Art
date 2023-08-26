@@ -13,12 +13,12 @@
     align-items: center;
   }
   
-  .header-LogoCompany {
+  .header-logoCompany {
     width: 130px;
     height: 100px;
   }
   
-  .divLogo{
+  .div-logo{
     width: 50%;
     height: 100%;
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
   }
   
-  .divButton{
+  .div-button{
     width: 50%;
     height: 100%;
     display: flex;
@@ -35,7 +35,7 @@
     position: relative;
   } 
   
-  .arte {
+  .arts {
     padding: 1.5% 5%;
     font-size: larger;
     color: #000000;
@@ -45,7 +45,6 @@
     cursor: pointer;
   }
   .Nombre{
-    padding: 1% 5%;
     font-size: larger;
     border: none;
     border-radius: 8px; 
@@ -55,12 +54,12 @@
     margin-right: 5%;
   }
   
-  .CarritoCompra {
+  .Carrito-Compra {
     height: 55%;
     color: rgb(0, 0, 0); 
     cursor: pointer;
     margin-right: 10%; 
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .arte:hover {
     background-color: #c7baba; 

@@ -12,8 +12,6 @@ import FormBou from './Components/Form NewBou/FormBou.jsx'
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <Headermain />
-
-<Arte />
 </>
 )*/
 
@@ -26,6 +24,8 @@ import FormBou from './Components/Form NewBou/FormBou.jsx'
 /*ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <HeaderArt />
+
+    <Arte />
     </>
 )*/
 
