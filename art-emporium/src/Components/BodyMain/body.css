@@ -1,17 +1,9 @@
 h1{
     text-align: center;
 }
-div2.container img{
-    padding-top: 50px;
-    position:relative;
-    top: 10px;
-    left:800px;    
+.container img{
+    position:relative;  
 }
-    
-Body{
-    background-color: aquamarine;
-}
-
 .texto h2{ 
     text-align:justify;
     position: relative;
