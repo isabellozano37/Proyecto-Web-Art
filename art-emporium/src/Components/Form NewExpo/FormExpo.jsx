@@ -75,7 +75,7 @@ export default function FormExpo() {
           <div className="Button">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Recuerdame" />
+                <Form.Check type="checkbox" label="Acepto condiciones de uso" />
               </Form.Group>
               <Button variant="primary" type="submit">
                 Nuevo Expositor
