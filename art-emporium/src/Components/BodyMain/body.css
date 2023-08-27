@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+div2.container img{
+    padding-top: 50px;
+    position:relative;
+    top: 10px;
+    left:800px;    
+}
+    
+Body{
+    background-color: aquamarine;
+}
+
+.texto h2{ 
+    text-align:justify;
+    position: relative;
+    padding: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.texto h3{
+    padding: auto;
+    margin-top: 120px;
+    margin-left: 500px;
+    position: relative;
+}
