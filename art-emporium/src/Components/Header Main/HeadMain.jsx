@@ -1,7 +1,9 @@
 import "../Header Main/HeadMain.css";
-import React, { useState } from "react";
 import Logo from "../../img/Logo.png";
 
+
+export default function Headermain() {
+   
 function ButtonOptions() {
   const [optionsVisible, setOptionsVisible] = useState(false);
 
@@ -62,7 +64,6 @@ function LoginButton() {
       alert("Por favor ingresa el usuario y la contraseña.");
     }
   };
-
   return (
     <div>
       {showLoginForm ? (
@@ -100,6 +101,7 @@ export default function Headermain() {
 
       <div className="divButton">
         <ButtonOptions />
+
 
         <LoginButton />
 

@@ -1,8 +1,9 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import './index.css'
 
 import HeaderBought from './Components/Header Bought/HeadBought';
+import BodyCart from './Components/BodyCart/BodyCart';
 import Arte from './Components/Arte/Arte.jsx';
 import Headeradmin from './Components/HeadAdmin/HeadAdmin';
 import BodyAdmin from './Components/BodyAdmin/BodyAdmin';
@@ -13,6 +14,14 @@ import HeaderArt from './Components/Header Art/HeadArt';
 import FormExpo from './Components/Form NewExpo/FormExpo'
 import FormBou from './Components/Form NewBou/FormBou.jsx'
 import SubirArte from './Components/SubirArte/SubirArte'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+<>
+<HeaderBought />
+  
+<BodyCart/>
+</>
+)
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
@@ -30,7 +39,6 @@ import SubirArte from './Components/SubirArte/SubirArte'
 </>
 )*/
 
-/*ReactDOM.createRoot(document.getElementById('root')).render(
 /*ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <HeaderArt />

@@ -1,6 +1,6 @@
 import "./HeaderBought.css";
 
-export default function Headermain() {
+export default function HeaderBought() {
    
   return (
     <header>
