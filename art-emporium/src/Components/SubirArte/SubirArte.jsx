@@ -43,8 +43,8 @@ function FormularioSubirArte() {
         <option className="ButtonArte-options" value="Pintura">Pintura</option>
         <option className="ButtonArte-options" value="Escultura">Escultura</option>
       </select>
-
-      {selectedProduct && (
+      <div>
+      {selectedProduct &&(
         <div className="InsertArt">
           <div>
           <h2>{selectedProduct}</h2>
@@ -98,6 +98,7 @@ function FormularioSubirArte() {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }

@@ -14,14 +14,13 @@ import FormExpo from './Components/Form NewExpo/FormExpo'
 import FormBou from './Components/Form NewBou/FormBou.jsx'
 import SubirArte from './Components/SubirArte/SubirArte'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+/*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
-{/* <Headermain /> */}
 <Headeradmin />
-{/* <Arte /> */}
+
 <BodyAdmin />
 </>
-)
+)*/
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>

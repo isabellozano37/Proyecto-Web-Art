@@ -37,6 +37,7 @@
     margin-right: 15%;
 }
 
-/* .InsertArt{
-    
-} */
+.InsertArt{
+    border: 1px black solid;
+    text-align: center; 
+} 
