@@ -1,3 +1,4 @@
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,6 +9,7 @@ import Arte from './Components/Arte/Arte.jsx';
 import Headeradmin from './Components/HeadAdmin/HeadAdmin';
 import BodyAdmin from './Components/BodyAdmin/BodyAdmin';
 import Headermain from './Components/Header Main/HeadMain';
+import FooterAll from './Components/Footer/FooterAll';
 import BodyMain from './Components/BodyMain/Body';
 import HeaderExponent from './Components/Header Exponent/HeadExponent';
 import HeaderArt from './Components/Header Art/HeadArt';
@@ -23,6 +25,7 @@ import SubirArte from './Components/SubirArte/SubirArte'
 </>
 )*/
 
+
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <Headeradmin />
@@ -36,6 +39,8 @@ import SubirArte from './Components/SubirArte/SubirArte'
 <Headermain />
 
 <BodyMain />
+
+<FooterAll />
 </>
 )*/
 
@@ -52,6 +57,7 @@ import SubirArte from './Components/SubirArte/SubirArte'
 <HeaderBought />
 
 <BodyMain />
+
 </>
 )*/
 
