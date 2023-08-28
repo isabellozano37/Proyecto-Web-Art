@@ -1,8 +1,5 @@
 import "../Header Main/HeadMain.css";
 import Logo from "../../img/Logo.png";
-
-
-export default function Headermain() {
    
 function ButtonOptions() {
   const [optionsVisible, setOptionsVisible] = useState(false);
