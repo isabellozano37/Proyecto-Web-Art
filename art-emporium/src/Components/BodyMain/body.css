@@ -1,20 +1,25 @@
-h1{
+.Saludos {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Contain{
+  display: flex;
+  justify-content: center;
+}
+
+.Textos{
+    margin-top: 11%;
+    margin-right: 10%;
     text-align: center;
 }
-.container img{
-    position:relative;  
+
+.Div2{
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
 }
-.texto h2{ 
-    text-align:justify;
-    position: relative;
-    padding: auto;
-    margin-top: 100px;
-    margin-left: 100px;
-    
-}
-.texto h3{
-    padding: auto;
-    margin-top: 120px;
-    margin-left: 500px;
-    position: relative;
+
+.Imags{
+    width: 53%;
 }
