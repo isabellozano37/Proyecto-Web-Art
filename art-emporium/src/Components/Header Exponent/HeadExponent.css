@@ -39,9 +39,7 @@
     padding: 1.5% 5%;
     font-size: larger;
     color: #000000;
-    border: 1px solid #ccc;
     border-radius: 3px;
-    margin-right: 2%;
     cursor: pointer;
   }
   .Nombre{
@@ -58,8 +56,6 @@
     height: 55%;
     color: rgb(0, 0, 0); 
     cursor: pointer;
-    margin-right: 10%; 
-    margin-left: 10%;
   }
   .arte:hover {
     background-color: #c7baba; 

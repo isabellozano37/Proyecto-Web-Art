@@ -12,7 +12,10 @@ export default function HeaderExponent() {
 
         <div className="div-button">
           <h1 className="Nombre">Hola@Nombre</h1>
-          <button className="arts">Subir Arte</button>
+          <Link className="arts" to="/SubirMiArte">
+            <button className="arts">Subir Arte</button>
+          </Link>
+
           <button className="arts">Mi Arte</button>
           <Link className="Carritocompra" to="/PaginaCompra">
             <button className="Carritocompra">

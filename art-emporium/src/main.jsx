@@ -10,20 +10,8 @@ import PaginaExpo from './Views/PaginaExpo/PaginaExpo';
 import PaginaBou from './Views/PaginaBou/PaginaBou';
 import InicialExpo from './Views/InicialExpo/InicialExpo';
 import InicialBou from './Views/InicialBou/InicialBou';
+import SubirMiArte from './Views/SubirArte/SubirArte';
 
-
-import HeaderBought from './Components/Header Bought/HeadBought';
-import BodyCart from './Components/BodyCart/BodyCart';
-import Arte from './Components/Arte/Arte.jsx';
-import Headeradmin from './Components/HeadAdmin/HeadAdmin';
-import BodyAdmin from './Components/BodyAdmin/BodyAdmin';
-import Headermain from './Components/Header Main/HeadMain';
-import BodyMain from './Components/BodyMain/Body';
-import HeaderExponent from './Components/Header Exponent/HeadExponent';
-import HeaderArt from './Components/Header Art/HeadArt';
-import FormExpo from './Components/Form NewExpo/FormExpo'
-import FormBou from './Components/Form NewBou/FormBou.jsx'
-import SubirArte from './Components/SubirArte/SubirArte'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
@@ -36,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Route path="/PaginaExpo" element={<PaginaExpo />} />
   <Route path="/PaginaBou" element={<PaginaBou />} />
   <Route path="/InicialExpo" element={<InicialExpo />} />
+  <Route path="/SubirMiArte" element={<SubirMiArte />} />
   <Route path="/InicialBou" element={<InicialBou />} />
   </Routes>
 

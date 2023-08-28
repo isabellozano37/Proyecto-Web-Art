@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import "./SubirArte.css";
 import Logo from "../../img/Logo.png";
 
@@ -123,10 +124,13 @@ export default function SubirArte() {
         <div className="Logo">
           <img className="header-Logo" src={Logo} alt="Company Logo" />
         </div>
-        <div className="SubirArte">Subir Arte</div>
-        <div>
+          <div className="SubirArte">Subir Arte</div>
+        <Link to="/InicialExpo">
+          <div>
           <button className="Homes">Home</button>
-        </div>
+          </div>
+        </Link>
+        
       </header>
       <body>
         <div className="ButtonArte">
