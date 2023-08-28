@@ -37,69 +37,82 @@ function FormularioSubirArte() {
   };
 
   return (
-    <div className="ButtonArte">
-      <select value={selectedProduct} onChange={handleProductChange}>
-        <option value="">Arte</option>
-        <option className="ButtonArte-options" value="Pintura">Pintura</option>
-        <option className="ButtonArte-options" value="Escultura">Escultura</option>
-      </select>
-      <div>
-      {selectedProduct &&(
-        <div className="InsertArt">
-          <div>
-          <h2>{selectedProduct}</h2>
-          </div>
-          <div>
-          <form onSubmit={handleFormSubmit}>
-            <label>
-              Imagen:
-              <input
-                type="file"
-                accept="image/*"
-                onChange={handleImageChange}
-              />
-              {productDetails.image && (
-                <img
-                  src={productDetails.image}
-                  alt="Vista previa de la imagen"
-                />
-              )}
-            </label>
-            <label>
-              Descripción:
-              <textarea
-                value={productDetails.description}
-                onChange={(e) =>
-                  setProductDetails({
-                    ...productDetails,
-                    description: e.target.value,
-                  })
-                }
-              />
-            </label>
-            <label>
-              Precio:
-              <input
-                type="number"
-                step="0.01"
-                min="0"
-                value={productDetails.price}
-                onChange={(e) =>
-                  setProductDetails({
-                    ...productDetails,
-                    price: e.target.value,
-                  })
-                }
-              />
-            </label>
-            
-            <button type="submit">Enviar</button>
-          </form>
-          </div>
-        </div>
-      )}
+    <>
+      <div className="ButtonArte">
+        <select value={selectedProduct} onChange={handleProductChange}>
+          <option value="">Arte</option>
+          <option className="ButtonArte-options" value="Pintura">
+            Pintura
+          </option>
+          <option className="ButtonArte-options" value="Escultura">
+            Escultura
+          </option>
+        </select>
       </div>
-    </div>
+      <div className="ContainerForm">
+        {selectedProduct && (
+          <div>
+            <div>
+              <h2>{selectedProduct}</h2>
+            </div>
+            <div className="InsertArt">
+              <form onSubmit={handleFormSubmit}>
+                <div className="ContainerAll">
+                  <div className="ImgContainer">
+                    <label>
+                      Imagen de la Obra:
+                      <input
+                        type="file"
+                        accept="image/*"
+                        onChange={handleImageChange}
+                      />
+                      {productDetails.image && (
+                        <img className="ImagenArt"
+                          src={productDetails.image}
+                          alt="Vista previa de la imagen"
+                        />
+                      )}
+                    </label>
+                  </div>
+                  <div className="Description">
+                    <label>
+                      Descripción:
+                      <textarea
+                        value={productDetails.description}
+                        onChange={(e) =>
+                          setProductDetails({
+                            ...productDetails,
+                            description: e.target.value,
+                          })
+                        }
+                      />
+                    </label>
+
+                    <label>
+                      Precio:
+                      <input
+                        type="number"
+                        step="0.01"
+                        min="0"
+                        value={productDetails.price}
+                        onChange={(e) =>
+                          setProductDetails({
+                            ...productDetails,
+                            price: e.target.value,
+                          })
+                        }
+                      />
+                    </label>
+
+                    <button type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
+      </div>
+    </>
   );
 }
 

@@ -84,10 +84,11 @@
 
 .confirmation-container button{
     width: 30%;
-    height: 40px;
+    height: 47px;
     color:#000000;
     margin-left: 35%;
     margin-top: 2%;
+	margin-block-end: 3%;
     background-color: greenyellow;
     border-radius: 20px 20px 20px 20px;
     cursor: pointer;

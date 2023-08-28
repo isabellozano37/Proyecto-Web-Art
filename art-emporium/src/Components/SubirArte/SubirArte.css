@@ -37,7 +37,33 @@
     margin-right: 15%;
 }
 
+.ContainerForm{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 33%;
+}
+
 .InsertArt{
-    border: 1px black solid;
-    text-align: center; 
-} 
+    display: inline-block;
+    justify-content: center;
+}
+
+.ContainerAll{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.ImgContainer{
+    margin-right: 5%;
+    text-align: center;
+}
+.Description{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.ImagenArt{
+    width: 100%;
+}

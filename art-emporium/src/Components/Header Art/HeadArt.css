@@ -55,7 +55,7 @@
     color: rgb(255, 255, 255); 
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 15%;
+    margin-right: 50px;
   }
   
   .Carritocompra {
@@ -65,9 +65,11 @@
     border-radius: 8px; 
     color: rgb(0, 0, 0); 
     cursor: pointer;
+    background-color: #000000;
     transition: background-color 0.3s ease;
     margin-right: 10%;
   }
+  
   .arte:hover {
     background-color: #c7baba; 
   }
