@@ -5,16 +5,16 @@ h1{
     display:flex;
 }
 div2.container img{
-    flex: container img;
-    margin: 5px;
-    padding-left: 10px;    
+    flex: container img;       
     position:relative;
-    left:800px; 
-    margin:0 auto;  
+    left:900px; 
+    margin:500 px ;
+    justify-content: space-between;
 }
-    
 Body{
     background-color: aquamarine;
+    height: 800 px;
+    width: 1200px;
 }
 
 .textos h2{ 
@@ -29,7 +29,7 @@ Body{
 .textos h3{
     flex: h3;
     /* padding: auto; */
-    margin-top: 120px;
-    margin-left: 500px;
+    margin-top: 220px;
+    margin-left: 300px;
     position: relative;
 }
