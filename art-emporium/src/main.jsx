@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import React from 'react'
-import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HeaderBought from './Components/Header Bought/HeadBought';
 import BodyCart from './Components/BodyCart/BodyCart';
@@ -15,13 +15,13 @@ import FormExpo from './Components/Form NewExpo/FormExpo'
 import FormBou from './Components/Form NewBou/FormBou.jsx'
 import SubirArte from './Components/SubirArte/SubirArte'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+/*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <HeaderBought />
   
 <BodyCart/>
 </>
-)
+)*/
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
