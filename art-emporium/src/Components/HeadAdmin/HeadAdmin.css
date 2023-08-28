@@ -1,0 +1,18 @@
+.header-button-admin{
+    padding: 10px 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-button-admin:hover {
+    background-color: #6b6b6b;
+}
+
+.header-text{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

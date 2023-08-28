@@ -1,37 +1,78 @@
-.Container{
-    height: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.headArt {
+  height: 140px;
+  background: #000000;
+  padding: 0 50px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.Img{
-    height: 450px;
-    margin-left: 5%;
-    margin-right: 300px;
-    margin-top: 1%;
+.Logo {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.TextandForm{
-    border: 1px black solid;
-    margin-top: 1%;
-    margin-right: 2%;
-    align-items: center;
-    width: 100%;
+.header-Logo {
+  width: 160px;
+  height: 140px;
 }
 
-.Text{
-    text-align: center;
+.Homes {
+  font-size: larger;
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 250px;
 }
 
-.Form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Container {
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.Img {
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 300px;
+  margin-block-end: 26%;
+}
+
+.TextandForm {
+  margin-top: 2%;
+  margin-right: 20%;
+  align-items: center;
+  width: 100%;
+}
+
+.Text {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.Form1 {
+  margin-right: 20%;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

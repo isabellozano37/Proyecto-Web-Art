@@ -9,10 +9,9 @@ export default function HeaderBought() {
         <img className="header-LogoCompany" src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/Logo-Arte_haqmng.png" alt="Company Logo" />
       </div>
 
-      <div className="divButton">
-      <button class="active-header-button">Carrito de compra</button>
-      <button class="header-button">Home</button>
-      <button class="header-button">Arte</button>
+      <div className="div-button">
+       <h1 className='Nombre'>Hola@Nombre</h1> 
+      <img className="Carrito-Compra" src = "https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"></img>
       </div>
 
     </header>
