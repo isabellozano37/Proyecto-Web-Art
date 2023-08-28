@@ -1,0 +1,2 @@
+import './MiArte.css'
+

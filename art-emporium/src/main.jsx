@@ -12,6 +12,7 @@ import HeaderExponent from './Components/Header Exponent/HeadExponent';
 import HeaderArt from './Components/Header Art/HeadArt';
 import FormExpo from './Components/Form NewExpo/FormExpo'
 import FormBou from './Components/Form NewBou/FormBou.jsx'
+import SubirArte from './Components/SubirArte/SubirArte'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <>
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )*/
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
+/*ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <HeaderArt />
 
@@ -41,12 +43,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <HeaderBought />
+
+<BodyMain />
 </>
 )*/
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <HeaderExponent />
+
+<BodyMain />
 </>
 )*/
 
@@ -62,3 +68,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </>
 )*/
 
+/*ReactDOM.createRoot(document.getElementById('root')).render(
+  <>
+  <SubirArte />
+  </>
+  )*/
