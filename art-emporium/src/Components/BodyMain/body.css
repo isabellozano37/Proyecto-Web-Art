@@ -1,27 +1,34 @@
 h1{
     text-align: center;
 }
+.contenedor-flex{
+    display:flex;
+}
 div2.container img{
-    padding-top: 50px;
+    flex: container img;
+    margin: 5px;
+    padding-left: 10px;    
     position:relative;
-    top: 10px;
-    left:800px;    
+    left:800px; 
+    margin:0 auto;  
 }
     
 Body{
     background-color: aquamarine;
 }
 
-.texto h2{ 
+.textos h2{ 
+    flex: h2;
     text-align:justify;
     position: relative;
-    padding: auto;
+    /* padding: auto; */
     margin-top: 100px;
     margin-left: 100px;
     
 }
-.texto h3{
-    padding: auto;
+.textos h3{
+    flex: h3;
+    /* padding: auto; */
     margin-top: 120px;
     margin-left: 500px;
     position: relative;

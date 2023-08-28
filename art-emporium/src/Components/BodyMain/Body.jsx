@@ -7,6 +7,7 @@ function BodyMain() {
     </div>
         
 <div>
+    <div class="contenedor-flex"></div>
     <div1 class="textos">
         <h2>Tu puedes amar el arte en todo su esplendor</h2>
         <h3>Haz click en la imagen</h3>
