@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+.contenedor-flex{
+    display:flex;
+}
+div2.container img{
+    flex: container img;
+    margin: 5px;
+    padding-left: 10px;    
+    position:relative;
+    left:800px; 
+    margin:0 auto;  
+}
+    
+Body{
+    background-color: aquamarine;
+}
+
+.textos h2{ 
+    flex: h2;
+    text-align:justify;
+    position: relative;
+    /* padding: auto; */
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.textos h3{
+    flex: h3;
+    /* padding: auto; */
+    margin-top: 120px;
+    margin-left: 500px;
+    position: relative;
+}
