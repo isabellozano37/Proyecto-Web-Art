@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background: #000000;
+    padding: 0 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-LogoCompany {
+    width: 130px;
+    height: 100px;
+}
+
+.divLogo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divButton{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.active-header-button{
+        padding: 10px 50px;
+        background-color: #d9d9d9;
+        border: none;
+        border-radius: 8px; 
+        color: rgb(0, 0, 0); 
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 50px;
+      }
+
+.header-button {
+    padding: 10px 50px;
+    background-color: #d9d9d900;
+    border: none;
+    border-radius: 8px; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+  }
+  
+  .header-button:hover {
+    background-color: #6b6b6b; 
+  }
+
