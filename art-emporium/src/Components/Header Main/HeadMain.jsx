@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import "../Header Main/HeadMain.css";
 import Logo from "../../img/Logo.png";
    
@@ -21,18 +22,22 @@ function ButtonOptions() {
       </button>
       {optionsVisible && (
         <div className="header-button-options">
-          <div
+          <Link to="/PaginaExpo">
+             <div
             className="option"
             onClick={() => handleOptionClick("Nuevo exponente")}
           >
             Nuevo exponente
-          </div>
-          <div
+          </div> 
+          </Link>
+          <Link to="/PaginaBou">
+           <div
             className="option"
             onClick={() => handleOptionClick("Nuevo comprador")}
           >
             Nuevo comprador
           </div>
+          </Link>
         </div>
       )}
     </div>

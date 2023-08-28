@@ -11,7 +11,7 @@ export default function BodyCart() {
         </div>
 
         <div className="divButton">
-          <button className="header-button-admin">Administrador</button>
+          <div className="header-button-admin">Carrito de Compra</div>
         </div>
 
         <div className="divButton">

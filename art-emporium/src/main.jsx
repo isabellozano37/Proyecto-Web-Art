@@ -6,6 +6,11 @@ import FooterAll from './Components/Footer/FooterAll'
 import PaginaInicial from './Views/PaginaInicial/PaginaInicial';
 import PaginaArte from './Views/PaginaArte/PaginaArte';
 import PaginaCompra from './Views/PaginaCompra/PaginaCompra';
+import PaginaExpo from './Views/PaginaExpo/PaginaExpo';
+import PaginaBou from './Views/PaginaBou/PaginaBou';
+import InicialExpo from './Views/InicialExpo/InicialExpo';
+import InicialBou from './Views/InicialBou/InicialBou';
+
 
 import HeaderBought from './Components/Header Bought/HeadBought';
 import BodyCart from './Components/BodyCart/BodyCart';
@@ -28,6 +33,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Route path="/" element={<PaginaInicial />} />
   <Route path="/PaginaArte" element={<PaginaArte />} />
   <Route path="/PaginaCompra" element={<PaginaCompra />} />
+  <Route path="/PaginaExpo" element={<PaginaExpo />} />
+  <Route path="/PaginaBou" element={<PaginaBou />} />
+  <Route path="/InicialExpo" element={<InicialExpo />} />
+  <Route path="/InicialBou" element={<InicialBou />} />
   </Routes>
 
   <FooterAll/>
@@ -46,43 +55,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 <FooterAll />
 </>
-)*/
-
-
-/*ReactDOM.createRoot(document.getElementById('root')).render(
-<>
-<HeaderBought />
-
-<BodyMain />
-
-<FooterAll />
-</>
-)*/
-
-/*ReactDOM.createRoot(document.getElementById('root')).render(
-<>
-<HeaderExponent />
-
-<BodyMain />
-
-<FooterAll />
-</>
-)*/
-
-/*ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
-    <FormExpo />
-
-    <FooterAll />
-  </>
-)*/
-
-/*ReactDOM.createRoot(document.getElementById('root')).render(
-    <>
-    <FormBou />
-
-    <FooterAll />
-    </>
 )*/
 
 /*ReactDOM.createRoot(document.getElementById('root')).render(

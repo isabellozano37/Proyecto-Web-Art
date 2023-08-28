@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./FormBou.css";
 import Logo from "../../img/Logo.png";
 
-export default function FormExpo() {
+export default function FormBou() {
   return (
     <>
       <header className="headArts">
         <div className="Logos">
           <img className="header-Logos" src={Logo} alt="Company Logo" />
         </div>
-        <div>
+        <Link to="/">
           <button className="Hom">Home</button>
-        </div>
+        </Link>
       </header>
 
       <div className="Containers">
@@ -77,9 +78,11 @@ export default function FormExpo() {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Acepto condiciones de uso" />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Nuevo Comprador
-              </Button>
+              <Link to="/InicialBou">
+                <Button variant="primary" type="submit">
+                  Nuevo Comprador
+                </Button>
+              </Link>
             </Form>
           </div>
         </div>
