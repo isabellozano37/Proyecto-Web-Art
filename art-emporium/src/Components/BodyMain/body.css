@@ -1,3 +1,10 @@
+body{
+  background-image: url(https://res.cloudinary.com/dhme3c8ll/image/upload/v1693296311/CapturaGotas_mqte3l.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
 .Saludos {
   text-align: center;
   margin-top: 3%;

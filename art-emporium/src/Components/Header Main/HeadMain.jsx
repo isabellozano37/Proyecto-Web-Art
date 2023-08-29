@@ -10,11 +10,6 @@ function ButtonOptions() {
     setOptionsVisible(!optionsVisible);
   };
 
-  const handleOptionClick = (option) => {
-    alert("Seleccionaste " + option + ".");
-    setOptionsVisible(false);
-  };
-
   return (
     <div>
       <button className="header-button" onClick={toggleOptions}>

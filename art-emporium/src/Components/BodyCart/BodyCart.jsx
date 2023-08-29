@@ -33,8 +33,8 @@ export default function BodyCart() {
               <img src="https://mymodernmet.com/wp/wp-content/uploads/2021/05/fine-art-simpsons-fb-thumbnail.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLA BLA BLA</h3>
-              <p>mamawevaso</p>
+              <h5>Habitación de Van Gohg en los Simpsons</h5>
+              <p>Valor 1.000.000€</p>
               <img
                 id="delete-logo"
                 src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
@@ -46,8 +46,8 @@ export default function BodyCart() {
               <img src="https://frinkiac.com/img/S10E19/301750.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLI BLI BLI</h3>
-              <p>mamawevaso</p>
+              <h5>Barbacoa de Homer</h5>
+              <p>Valor 5.000.000€</p>
               <img
                 id="delete-logo"
                 src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
@@ -59,8 +59,8 @@ export default function BodyCart() {
               <img src="https://mj2artesanos.es/487-large_default/marco-simpsons.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLI BLI BLI</h3>
-              <p>mamawevaso</p>
+              <h5>Barquito de Lisa Simpson</h5>
+              <p>Valor 100.000€</p>
               <img
                 id="delete-logo"
                 src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
@@ -69,7 +69,7 @@ export default function BodyCart() {
           </div>
         </div>
         <div className="confirmation-container">
-          <p> TOTAL: 999$</p>
+          <p> TOTAL: 6.100.000€</p>
           <button>Comprar</button>
         </div>
       </body>

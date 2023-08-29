@@ -19,7 +19,7 @@ export default function BodyMain() {
             <Link to="/PaginaArte">
               <img
                 className="Imags"
-                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/caratula_artes_b8yb9l.jpg"
+                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693296872/caratula_artes-removebg-preview_haos9t.png"
               ></img>
             </Link>
           </div2>

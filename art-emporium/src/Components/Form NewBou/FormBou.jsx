@@ -20,8 +20,7 @@ export default function FormBou() {
         <div>
           <img
             className="Imgs"
-            src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/surrealismo-rostros-con-frutas-oleos_rw7ykq.jpg"
-          ></img>
+            src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693295545/download_chumv1.jpg"></img>
         </div>
         <div className="TextandForms">
           <div className="Texts">

@@ -15,8 +15,9 @@ export default function HeaderExponent() {
           <Link className="arts" to="/SubirMiArte">
             <button className="arts">Subir Arte</button>
           </Link>
-
-          <button className="arts">Mi Arte</button>
+          <Link className="arts" to="/Miarte">
+            <button className="arts">Mi Arte</button>
+          </Link>
           <Link className="Carritocompra" to="/PaginaCompra">
             <button className="Carritocompra">
               <img
