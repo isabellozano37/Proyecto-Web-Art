@@ -1,81 +1,39 @@
 {
   "ArtCustomer": [
     {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
+      "Foto": "https://cdn.pixabay.com/photo/2023/01/21/15/06/ai-generated-7734186_640.jpg",
+      "Description": "Pintura 1",
+      "Precio": "1000",
       "Tipo": "Pintura",
       "id": 17
     },
     {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
+      "Foto": "https://cdn.pixabay.com/photo/2023/08/06/13/11/ai-generated-8172924_640.jpg",
+      "Description": "Escultura 1",
       "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 18
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 19
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 20
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 21
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 22
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 23
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 25
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 26
-    },
-    {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
+      "Tipo": "Escultura",
       "id": 27
     },
     {
-      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
-      "Description": "Pintura 2",
-      "Precio": "500",
-      "Tipo": "Pintura",
-      "id": 28
+      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
+      "Description": "Escultura 2",
+      "Precio": "2000",
+      "Tipo": "Escultura",
+      "id": 29
+    },
+    {
+      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
+      "Description": "Escultura 2",
+      "Precio": "2000",
+      "Tipo": "Escultura",
+      "id": 47
+    },
+    {
+      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
+      "Description": "Escultura 2",
+      "Precio": "2000",
+      "Tipo": "Escultura",
+      "id": 48
     }
   ]
 }
