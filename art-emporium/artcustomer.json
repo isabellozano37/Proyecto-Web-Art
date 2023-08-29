@@ -1,0 +1,18 @@
+{
+  "ArtCustomer": [
+    {
+      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
+      "Description": "Pintura 2",
+      "Precio": "500",
+      "Tipo": "Pintura",
+      "id": 17
+    },
+    {
+      "Foto": "https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png",
+      "Description": "Pintura 2",
+      "Precio": "500",
+      "Tipo": "Pintura",
+      "id": 27
+    }
+  ]
+}
