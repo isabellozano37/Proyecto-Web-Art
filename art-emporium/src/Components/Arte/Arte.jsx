@@ -11,14 +11,14 @@ export default function ArteMain() {
         setOptionsVisiblePintura(!optionsVisiblePintura);
         setOptionsVisibleEscultura(false); 
       };
-      
+
       const toggleOptionsEscultura = () => {
         setOptionsVisibleEscultura(!optionsVisibleEscultura);
         setOptionsVisiblePintura(false); 
       };
 
     return (
-      <body>
+      <body className="Body">
 
         <div className="div-arte-Button">
 
