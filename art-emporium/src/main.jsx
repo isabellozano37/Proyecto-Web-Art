@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import FooterAll from './Components/Footer/FooterAll'
 import PaginaInicial from './Views/PaginaInicial/PaginaInicial';
 import PaginaArte from './Views/PaginaArte/PaginaArte';
@@ -16,6 +18,7 @@ import OleoArte from './Views/Oleo/OleoArte';
 import AcuarelaArte from './Views/Acuarela/Acuarela';
 import BustosArte from './Views/Bustos/Bustos';
 import CeramicaArte from './Views/Ceramica/Ceramica';
+import PaginaAdmi from './Views/PaginaAdmi/PaginaAdmi';
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
@@ -25,6 +28,7 @@ import CeramicaArte from './Views/Ceramica/Ceramica';
    <Routes>
    <Route path="/" element={<PaginaInicial />} />
    <Route path="/PaginaArte" element={<PaginaArte />} />
+   <Route path="/PaginaAdmi" element={<PaginaAdmi />} />
    <Route path="/OleoArte" element={<OleoArte />} />
    <Route path="/AcuarelaArte" element={<AcuarelaArte />} />
    <Route path="/BustosArte" element={<BustosArte />} />
