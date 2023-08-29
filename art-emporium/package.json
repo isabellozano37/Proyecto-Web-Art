@@ -17,10 +17,6 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.15.0",
     "react-router-dom": "^6.15.0"
-<<<<<<< HEAD
-
-=======
->>>>>>> c4560b53d12902e1531c783643dae5e6255db7db
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
