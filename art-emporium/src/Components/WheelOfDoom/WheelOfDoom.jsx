@@ -15,17 +15,14 @@ export default function WheelOfDoom() {
     setartCustomer(data);
   };
 
-
-
-
   const handleAdd = async () => {
     try {
       // Datos del nuevo elemento a agregar (reemplaza con los valores adecuados)
       const newArtCustomer = {
-        Foto: 'https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/twitter_5968958_wt6tbw.png',
-        Description: 'Pintura 2',
-        Precio: '500',
-        Tipo: 'Pintura',
+        Foto: 'https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png',
+        Description: 'Escultura 2',
+        Precio: '2000',
+        Tipo: 'Escultura',
       };
   
       // Realizar la solicitud POST para agregar el elemento a la base de datos (API)
@@ -64,11 +61,11 @@ export default function WheelOfDoom() {
                 .map((item) => (
                   <div key={item.id} className="art-customer">
                     <div>
-                    <img src={item.Foto} alt="Imagen de arte" width={250}/>
+                    <img src={item.Foto} alt="Imagen de arte" width={250} height={315}/>
                     </div>
                     <h2>{item.Description}</h2>
-                    <p>Precio: {item.Precio}</p>
-                    <p>Tipo: {item.Tipo}</p>
+                    <p><strong>Precio:</strong> {item.Precio}</p>
+                    <p><strong>Tipo:</strong> {item.Tipo}</p>
                     <div className="button-container">
                     <button className="delete-button" onClick={() => handleDelete(item.id)}>
                         <img width={30} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsJK7RvQtvRfpAW04KrAo7wBvW_7W9qhUqIgC8fYgtfjrSLRC5aXDjuwXRirrWxllkak&usqp=CAU" alt="Eliminar" />
