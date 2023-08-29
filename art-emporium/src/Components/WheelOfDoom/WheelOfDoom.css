@@ -6,7 +6,7 @@
 
 .art-customer {
     width: 280px; /* Tamaño cuadrado */
-    height: 380px; /* Tamaño cuadrado */
+    height: 480px; /* Tamaño cuadrado */
     border: 1px solid #000000;
     padding: 10px;
     margin-right: 10px;
@@ -15,6 +15,7 @@
     flex-direction: column; /* Alinea los elementos en columna */
     justify-content: space-between; /* Espacio uniforme entre los elementos */
     text-align: center;
+    margin-top: 60px;
   }
 
   .art-customer-group {
