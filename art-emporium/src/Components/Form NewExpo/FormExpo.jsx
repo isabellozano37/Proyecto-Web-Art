@@ -1,10 +1,20 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./FormExpo.css";
+import Logo from "../../img/Logo.png";
 
 export default function FormExpo() {
   return (
     <>
+      <header className="headArt">
+        <div className="Logo">
+          <img className="header-Logo" src={Logo} alt="Company Logo" />
+        </div>
+        <div>
+          <button className="Homes">Home</button>
+        </div>
+      </header>
+
       <div className="Container">
         <div>
           <img
@@ -18,7 +28,7 @@ export default function FormExpo() {
             <h2>Registre sus datos</h2>
           </div>
           <div className="Form">
-            <div>
+            <div className="Form1">
               <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label>Nombre</Form.Label>
@@ -28,9 +38,9 @@ export default function FormExpo() {
                   <Form.Label>Apellidos</Form.Label>
                   <Form.Control type="Name" placeholder="Enter LastName" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                <Form.Group className="mb-3" controlId="formGridAddress2">
+                  <Form.Label>Direction</Form.Label>
+                  <Form.Control placeholder="Apartment, studio, or floor" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Numero de Telefono</Form.Label>
@@ -63,14 +73,14 @@ export default function FormExpo() {
             </div>
           </div>
           <div className="Button">
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Recuerdame" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
-              Nuevo Expositor
-            </Button>
-          </Form>
+            <Form>
+              <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Acepto condiciones de uso" />
+              </Form.Group>
+              <Button variant="primary" type="submit">
+                Nuevo Expositor
+              </Button>
+            </Form>
           </div>
         </div>
       </div>

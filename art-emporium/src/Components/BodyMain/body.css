@@ -1,0 +1,25 @@
+.Saludos {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Contain{
+  display: flex;
+  justify-content: center;
+}
+
+.Textos{
+    margin-top: 11%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Div2{
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
+}
+
+.Imags{
+    width: 53%;
+}

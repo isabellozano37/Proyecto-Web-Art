@@ -1,0 +1,43 @@
+.ButtonArte{
+    padding: 5px 10px;
+    font-size: larger;
+    color: #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
+.ButtonArte-options{
+    width: 10%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 26%;
+}
+
+.options{
+    padding: 5px 10px;
+    font-size: large;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.SubirArte{
+    width: 20%;
+    font-size: x-large;
+    color: #000000;
+    text-align: center;
+    background-color: rgb(181, 181, 181);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 15%;
+}
+
+.InsertArt{
+    border: 1px black solid;
+    text-align: center; 
+} 
