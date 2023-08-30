@@ -11,7 +11,7 @@ export default function Oleo() {
         </div>
 
         <Link className="ArteMio" to="/PaginaArte">
-            <button className="ArteMio">Mi Arte</button>
+            <button className="ArteMio">Arte</button>
         </Link>
 
         <div className="divButton">
@@ -77,7 +77,7 @@ export default function Oleo() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693301433/pintura-abatracta-acuarela_jkteia.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Intensidad, Anónimo</h5>
+            <h5>Intensidad, <br />Anónimo</h5>
               <p> Caballo Pintado al Óleo Espátula Sobre Lienzo.</p>
               <p>Valor 150.00€</p>
               <img

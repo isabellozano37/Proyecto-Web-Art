@@ -36,7 +36,8 @@ export default function Ceramica() {
             </figure>
             <div class="contenido-card">
             <h5>Arte en Barro, Anónimo</h5>
-              <p>Manos Artesanas elaborando una pieza antes de dar el vitrificado.</p>
+              <p>Manos Artesanas elaborando una pieza antes 
+                de dar el vitrificado.</p>
               <p>Valor 100.00€</p>
               <img
                 id="Carrito"
@@ -50,7 +51,8 @@ export default function Ceramica() {
             </figure>
             <div class="contenido-card">
             <h5>Ranita, Anónimo</h5>
-              <p>Ranita de ceramica, totalmente policromada.</p>
+              <p>Ranita de ceramica, totalmente policromada y pintada
+                a mano por artesanos.</p>
               <p>Valor 200.000€</p>
               <img
                 id="Carrito"
@@ -64,7 +66,8 @@ export default function Ceramica() {
             </figure>
             <div class="contenido-card">
             <h5>Sueño Reparador, Anónimo</h5>
-              <p>Angelito de ceramica fina.</p>
+              <p>Angelito de ceramica fina, con sutiles toques de 
+                pintura artesana.</p>
               <p>Valor 200.000€</p>
               <img
                 id="Carrito"
@@ -78,7 +81,8 @@ export default function Ceramica() {
             </figure>
             <div class="contenido-card">
             <h5>Jarrón Maya, Anónimo</h5>
-              <p>Jarrón de arcilla Maya.</p>
+              <p>Jarrón de arcilla, con 
+                elegantes figuras y detalles representativos Maya.</p>
               <p>Valor 500.000€</p>
               <img
                 id="Carrito"

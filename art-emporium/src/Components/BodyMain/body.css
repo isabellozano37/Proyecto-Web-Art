@@ -1,18 +1,26 @@
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('../fonts/Allura-Regular.ttf') format('truetype');
+  /* Agrega más formatos y rutas para soporte de navegadores diferentes */
+}
+
 body{
-  background-image: url(https://res.cloudinary.com/dhme3c8ll/image/upload/v1693296311/CapturaGotas_mqte3l.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100%;
+  background-image: url(https://res.cloudinary.com/da7ffijqs/image/upload/v1693330332/fondo1_whhc7z.jpg);
+  background-size: auto;
+  font-family: 'MiFuentePersonalizada';
+  font-size: x-large;
 }
 
 .Saludos {
+  font-size: x-large;
   text-align: center;
-  margin-top: 3%;
 }
 
 .Contain{
+  font-size: larger;
   display: flex;
   justify-content: center;
+  
 }
 
 .Textos{

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import "./HeadArt.css";
 import Logo from "../../img/Logo.png";
 
@@ -17,9 +16,13 @@ export default function HeaderArt() {
             <button className="Home">Home</button>
           </Link>
           <Link className="Carritocompra" to="/PaginaCompra">
-            <button className="Carritocompra"><img className="Carritocompra" src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png" /></button>
+            <button className="Carritocompra">
+              <img
+                className="Carritocompra"
+                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"
+              />
+            </button>
           </Link>
-          
         </div>
       </header>
     </>

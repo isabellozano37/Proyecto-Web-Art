@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 header {
     height: 100px;
     background: #000000;
@@ -13,7 +8,9 @@ header {
     align-items: center;
 }
 
+
 .header-LogoCompany {
+    margin-left: 1100%;
     width: 130px;
     height: 100px;
 }
@@ -36,7 +33,7 @@ header {
 
 .header-button {
     padding: 10px 50px;
-    background-color: #D9D9D9;
+    background-color: #cccccc;
     border: none;
     border-radius: 8px; 
     color: rgb(0, 0, 0); 
@@ -48,4 +45,47 @@ header {
   .header-button:hover {
     background-color: #6b6b6b; 
   }
+
+  @media screen and (max-width: 390px) {
+    header {
+        margin-right: -30.2%;
+        padding: 10px; 
+    }
+
+    .divButton {
+        border: 1px #cccccc;
+        text-align: center;
+        margin-top: 0; 
+    }
+
+    .header-LogoCompany {
+        width: 60px; 
+        height: auto; 
+        margin-left: 0; 
+    }
+
+    .divLogo,
+    .divButton {
+        width: 100%; 
+    }
+
+    .header-button {
+        padding: 8px 15px; 
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -40,3 +40,19 @@ body{
 .btn-escultura{
     margin-left: 16%;
 }
+
+@media screen and (max-width: 390px) {
+    .body-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .button-pintura-Escultura {
+        margin-top: 10px;
+    }
+
+    .btn-pintura,
+    .btn-escultura {
+        margin: 2px;
+    }
+}

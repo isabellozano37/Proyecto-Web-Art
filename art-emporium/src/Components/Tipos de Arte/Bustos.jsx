@@ -36,7 +36,7 @@ export default function Bustos() {
             </figure>
             <div class="contenido-card">
             <h5>Nefertiti, Anónimo</h5>
-              <p>Busto de la reina egipcia.</p>
+              <p>Busto de la reina egipcia Nefertiti.</p>
               <p>Valor 8.000.000€</p>
               <img
                 id="Carrito"
@@ -64,7 +64,7 @@ export default function Bustos() {
             </figure>
             <div class="contenido-card">
             <h5>Aristóteles, Anónimo</h5>
-              <p>Busto de Aristóteles, Filósofo griego.</p>
+              <p>Busto de Aristóteles, gran Filósofo griego.</p>
               <p>Valor 100.000€</p>
               <img
                 id="Carrito"
@@ -77,8 +77,8 @@ export default function Bustos() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693300418/ludwig-van-beethoven-62844_640_ido3qx.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Ludwig van Beethoven, Anónimo</h5>
-              <p>Busto Ludwig van Beethoven,famoso musico.</p>
+            <h5>Van Beethoven, Anónimo</h5>
+              <p>Busto de Beethoven, gran músico.</p>
               <p>Valor 500.00€</p>
               <img
                 id="Carrito"

@@ -64,7 +64,8 @@ export default function Acuarela() {
             </figure>
             <div class="contenido-card">
             <h5>Cielo de Atardecer, de John Pike.</h5>
-              <p>Pintura ilustrativa del rio al atardecer.</p>
+              <p>Pintura ilustrativa de un barco en el rio al atardecer, con 
+                paisaje montañoso de fondo.</p>
               <p>Valor 200.00€</p>
               <img
                 id="Carrito"
@@ -77,8 +78,8 @@ export default function Acuarela() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693300635/acuarela-flores_nt9gmm.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Flores en Acuarela, de David Millard Flores</h5>
-              <p>Pintura de flores en jarrón.</p>
+            <h5>Flores en Acuarela, de David Millard <br />Flores</h5>
+              <p>Pintura de flores en jarrón, representativo de su apellido.</p>
               <p>Valor 150.00€</p>
               <img
                 id="Carrito"

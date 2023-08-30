@@ -13,27 +13,6 @@
       "Precio": "500",
       "Tipo": "Escultura",
       "id": 27
-    },
-    {
-      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
-      "Description": "Escultura 2",
-      "Precio": "2000",
-      "Tipo": "Escultura",
-      "id": 29
-    },
-    {
-      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
-      "Description": "Escultura 2",
-      "Precio": "2000",
-      "Tipo": "Escultura",
-      "id": 47
-    },
-    {
-      "Foto": "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
-      "Description": "Escultura 2",
-      "Precio": "2000",
-      "Tipo": "Escultura",
-      "id": 48
     }
   ]
 }
