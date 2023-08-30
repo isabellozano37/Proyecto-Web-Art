@@ -36,8 +36,8 @@
   } 
   
   .arts {
-    padding: 1.5% 5%;
-    font-size: larger;
+    width: 100%;
+    font-size: x-large;
     color: #000000;
     border-radius: 3px;
     cursor: pointer;
