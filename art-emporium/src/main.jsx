@@ -47,24 +47,3 @@ import PaginaAdmi from './Views/PaginaAdmi/PaginaAdmi';
    </BrowserRouter>
    </>
  )
-
-
-
-/*ReactDOM.createRoot(document.getElementById('root')).render(
-<>
-<Headeradmin />
-
-<BodyAdmin />
-
-<FooterAll />
-</>
-)*/
-
-/*ReactDOM.createRoot(document.getElementById('root')).render(
-  <>
-  <MiArte />
-  
-  <FooterAll />
-  </>
-  )*/
-
