@@ -1,0 +1,43 @@
+#Carrito{
+    height: 35px;
+    width: 35px;
+    margin-top: 2%;
+}
+
+.CarritocompraArte{
+    width: 30%;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.Title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.ArteMio{
+    font-size: x-large;
+    width: 50%;
+    height: 60%;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    #Carrito {
+        height: 20px;
+        width: 20px;
+    }
+
+    .CarritocompraArte {
+        width: 50%; /* Ajustado para pantallas muy estrechas */
+    }
+
+    .Title {
+        margin-top: 1%;
+    }
+
+    .ArteMio {
+        font-size: medium; /* Ajustado el tamaño de fuente para pantallas pequeñas */
+    }
+}

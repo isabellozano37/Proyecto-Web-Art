@@ -1,0 +1,79 @@
+.headArt {
+  height: 140px;
+  background: #000000;
+  padding: 0 50px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-Logo {
+  width: 160px;
+  height: 140px;
+}
+
+.Homes {
+  font-size: larger;
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 250px;
+}
+
+.Container {
+  height: 110%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -3%;
+}
+
+.Img {
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 300px;
+  margin-block-end: 20%;
+}
+
+.TextandForm {
+  margin-top: 2%;
+  margin-right: 20%;
+  align-items: center;
+  width: 100%;
+}
+
+.Text {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.Form1 {
+  margin-right: 20%;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

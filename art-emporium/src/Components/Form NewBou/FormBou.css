@@ -1,0 +1,80 @@
+.headArts {
+    height: 140px;
+    background: #000000;
+    padding: 0 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Logos {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-Logos {
+    width: 160px;
+    height: 140px;
+  }
+  
+  .Hom {
+    font-size: larger;
+    background-color: #000000;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 250px;
+  }
+
+  .Containers {
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3%;
+  }
+  
+  .Imgs {
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 300px;
+    margin-block-end: 26%;
+  }
+  
+  .TextandForms {
+    margin-top: 2%;
+  margin-right: 20%;
+  align-items: center;
+  width: 100%;
+}
+  
+  
+  .Texts {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .Forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .Forms1 {
+    margin-right: 20%;
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

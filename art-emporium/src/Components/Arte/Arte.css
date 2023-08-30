@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    height: 550px;
+}
+
+.div-arte-Button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.body-button{
+    padding: 10px 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+}
+
+.body-button:hover {
+    background-color: #6b6b6b;
+}
+
+.button-pintura-Escultura{
+    position: absolute;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    margin-top: 5%;
+}
+
+.btn-pintura{
+    margin-right: 10%;
+}
+.btn-escultura{
+    margin-left: 16%;
+}
+
+@media screen and (max-width: 390px) {
+    .body-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .button-pintura-Escultura {
+        margin-top: 10px;
+    }
+
+    .btn-pintura,
+    .btn-escultura {
+        margin: 2px;
+    }
+}

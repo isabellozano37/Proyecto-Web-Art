@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('../fonts/Allura-Regular.ttf') format('truetype');
+  /* Agrega más formatos y rutas para soporte de navegadores diferentes */
+}
+
+body{
+  background-image: url(https://res.cloudinary.com/da7ffijqs/image/upload/v1693330332/fondo1_whhc7z.jpg);
+  background-size: auto;
+  font-family: 'MiFuentePersonalizada';
+  font-size: x-large;
+}
+
+.Saludos {
+  font-size: x-large;
+  text-align: center;
+}
+
+.Contain{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Textos{
+    margin-top: 11%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Div2{
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
+}
+
+.Imags{
+    width: 53%;
+}
