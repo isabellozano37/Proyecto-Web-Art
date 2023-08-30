@@ -40,7 +40,7 @@ function ButtonOptions() {
     </div>
   );
 }
-
+}
 function LoginButton() {
   const [showLoginForm, setShowLoginForm] = useState(false);
   const [username, setUsername] = useState("");
