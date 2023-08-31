@@ -1,0 +1,122 @@
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+    margin-top: 1.5%;
+    font-family: JollyLodger-Regular;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #0b0b0b;
+    font-family: JollyLodger-Regular;
+    font-size: 100%;
+}
+.card{
+	width: 100%;
+    max-height: 460px;
+	margin: 15px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor:pointer;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 10px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.3;
+	color: #6a6a6a;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+
+#delete-logo{
+    height: 20px;
+    width: 20px;
+    margin-top: 10%;
+}
+
+.confirmation-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.confirmation-container button{
+    width: 30%;
+    height: 47px;
+    color:#000000;
+    margin-left: 35%;
+    margin-top: 2%;
+	margin-block-end: 3%;
+    background-color: greenyellow;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    border:#b9b7b7 1.5px solid;
+}
+
+@media screen and (max-width: 390px) {
+    .container-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .confirmation-container {
+        width: 80%;
+        margin: 10% auto;
+    }
+
+    .confirmation-container button {
+        width: 100%;
+        margin: 2% 0;
+    }
+}

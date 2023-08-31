@@ -8,12 +8,14 @@ header {
     align-items: center;
 }
 
+
 .header-LogoCompany {
+    margin-left: 1100%;
     width: 130px;
     height: 100px;
 }
 
-.divLogo {
+.divLogo{
     width: 50%;
     height: 100%;
     display: flex;
@@ -21,63 +23,69 @@ header {
     align-items: center;
 }
 
-.divButton {
+.divButton{
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
+} 
 
 .header-button {
     padding: 10px 50px;
-    background-color: #D9D9D9;
+    background-color: #cccccc;
     border: none;
-    border-radius: 8px;
-    color: rgb(0, 0, 0);
+    border-radius: 8px; 
+    color: rgb(0, 0, 0); 
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 50px;
-}
+  }
+  
+  .header-button:hover {
+    background-color: #6b6b6b; 
+  }
 
-.header-button:hover {
-    background-color: #6b6b6b;
-}
-
-.header-button-options {
-    position: absolute;
-    left: 27%;
-    width: 20%;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #D9D9D9;
-}
-
-.option {
-    padding: 5px 10px;
-    color: #000000;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.option:hover {
-    background-color: #6b6b6b;
-}
-
-@media (max-width: 768px) {
-    .divLogo {
-        text-align: center;
+  @media screen and (max-width: 390px) {
+    header {
+        margin-right: -30.2%;
+        padding: 10px; 
     }
 
     .divButton {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        border: 1px #cccccc;
+        text-align: center;
+        margin-top: 0; 
+    }
+
+    .header-LogoCompany {
+        width: 60px; 
+        height: auto; 
+        margin-left: 0; 
+    }
+
+    .divLogo,
+    .divButton {
+        width: 100%; 
     }
 
     .header-button {
-        margin-top: 3px;
+        padding: 8px 15px; 
+        margin: 5px 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

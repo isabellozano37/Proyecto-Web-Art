@@ -1,3 +1,8 @@
+body{
+    text-align: center;
+    height: 550px;
+}
+
 .div-arte-Button{
     width: 100%;
     height: 100%;
@@ -5,7 +10,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 3%;
 }
 
 .body-button{
@@ -25,9 +29,9 @@
 
 .button-pintura-Escultura{
     position: absolute;
-    margin-top: 6.3%;
     border-radius: 5px;
     background-color: #D9D9D9;
+    margin-top: 5%;
 }
 
 .btn-pintura{
@@ -35,4 +39,20 @@
 }
 .btn-escultura{
     margin-left: 16%;
+}
+
+@media screen and (max-width: 390px) {
+    .body-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .button-pintura-Escultura {
+        margin-top: 10px;
+    }
+
+    .btn-pintura,
+    .btn-escultura {
+        margin: 2px;
+    }
 }

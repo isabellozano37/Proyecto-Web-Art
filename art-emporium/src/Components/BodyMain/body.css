@@ -1,35 +1,41 @@
-h1{
-    text-align: center;
-}
-.contenedor-flex{
-    display:flex;
-}
-div2.container img{
-    flex: container img;       
-    position:relative;
-    left:900px; 
-    margin:500 px ;
-    justify-content: space-between;
-}
-Body{
-    background-color: aquamarine;
-    height: 800 px;
-    width: 1200px;
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('../fonts/Allura-Regular.ttf') format('truetype');
+  /* Agrega más formatos y rutas para soporte de navegadores diferentes */
 }
 
-.textos h2{ 
-    flex: h2;
-    text-align:justify;
-    position: relative;
-    /* padding: auto; */
-    margin-top: 100px;
-    margin-left: 100px;
-    
+body{
+  background-image: url(https://res.cloudinary.com/da7ffijqs/image/upload/v1693330332/fondo1_whhc7z.jpg);
+  background-size: auto;
+  font-family: 'MiFuentePersonalizada';
+  font-size: x-large;
 }
-.textos h3{
-    flex: h3;
-    /* padding: auto; */
-    margin-top: 220px;
-    margin-left: 300px;
-    position: relative;
+
+.Saludos {
+  font-size: x-large;
+  text-align: center;
+}
+
+.Contain{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Textos{
+    margin-top: 11%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Div2{
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
+}
+
+.Imags{
+    width: 53%;
+
 }
