@@ -1,16 +1,13 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../Header Main/HeadMain.css";
 import Logo from "../../img/Logo.png";
-   
+
 function ButtonOptions() {
   const [optionsVisible, setOptionsVisible] = useState(false);
 
   const toggleOptions = () => {
     setOptionsVisible(!optionsVisible);
-  };
-
-  const handleOptionClick = (option) => {
-    alert("Seleccionaste " + option + ".");
-    setOptionsVisible(false);
   };
 
   return (
@@ -20,18 +17,22 @@ function ButtonOptions() {
       </button>
       {optionsVisible && (
         <div className="header-button-options">
-          <div
-            className="option"
-            onClick={() => handleOptionClick("Nuevo exponente")}
-          >
-            Nuevo exponente
-          </div>
-          <div
-            className="option"
-            onClick={() => handleOptionClick("Nuevo comprador")}
-          >
-            Nuevo comprador
-          </div>
+          <Link to="/PaginaExpo">
+            <div
+              className="option"
+              onClick={() => handleOptionClick("Nuevo exponente")}
+            >
+              Nuevo exponente
+            </div>
+          </Link>
+          <Link to="/PaginaBou">
+            <div
+              className="option"
+              onClick={() => handleOptionClick("Nuevo comprador")}
+            >
+              Nuevo comprador
+            </div>
+          </Link>
         </div>
       )}
     </div>
@@ -49,14 +50,10 @@ function LoginButton() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-
-    // Aquí puedes realizar la lógica de autenticación
-    // por ejemplo, enviar los datos al servidor y verificar la autenticación
     if (username && password) {
       alert(
         `Iniciando sesión con Usuario: ${username} y Contraseña: ${password}`
       );
-      // Puedes también redirigir a la página de inicio después del inicio de sesión
     } else {
       alert("Por favor ingresa el usuario y la contraseña.");
     }
@@ -82,26 +79,27 @@ function LoginButton() {
           </button>
         </form>
       ) : (
-        <button onClick={toggleLoginForm} className="header-button">Iniciar Sesión</button>
+        <button onClick={toggleLoginForm} className="header-button">
+          Iniciar Sesión
+        </button>
       )}
     </div>
   );
 }
 
 export default function Headermain() {
-
   return (
     <header>
-      <div className="divLogo">
-        <img className="header-LogoCompany" src={Logo} alt="Company Logo" />
-      </div>
+      <Link to="/PaginaAdmi">
+        <div className="divLogo">
+          <img className="header-LogoCompany" src={Logo} alt="Company Logo" />
+        </div>
+      </Link>
 
       <div className="divButton">
         <ButtonOptions />
 
-
         <LoginButton />
-
       </div>
     </header>
   );
