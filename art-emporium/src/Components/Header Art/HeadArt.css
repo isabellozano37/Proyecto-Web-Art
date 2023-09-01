@@ -55,7 +55,7 @@
     color: rgb(255, 255, 255); 
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 15%;
+    margin-right: 50px;
   }
   
   .Carritocompra {
@@ -65,9 +65,49 @@
     border-radius: 8px; 
     color: rgb(0, 0, 0); 
     cursor: pointer;
+    background-color: #000000;
     transition: background-color 0.3s ease;
     margin-right: 10%;
   }
+  
   .arte:hover {
     background-color: #c7baba; 
+  }
+
+  @media screen and (max-width: 390px) {
+    .headerArt {
+      padding: 0 10px; 
+    }
+  
+    .header-LogoCompany {
+      width: 60px; 
+      height: 40px; 
+    }
+  
+    .Arte,
+    .Home,
+    .Carritocompra {
+      padding: 0.5% 3%; 
+      font-size: x-small; 
+      border-radius: 4px; 
+    }
+  
+    .divLogo {
+      width: 100%; 
+    }
+  
+    .Arte {
+      font-size: large;
+      margin-right: 5%; 
+    }
+  
+    .Home {
+      font-size: medium;
+      margin-right: 10px; 
+    }
+  
+    .Carritocompra {
+      height: 30px;
+      margin-right: 2.5%; 
+    }
   }
