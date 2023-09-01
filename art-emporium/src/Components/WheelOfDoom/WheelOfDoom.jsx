@@ -22,9 +22,9 @@ export default function WheelOfDoom() {
       // Datos del nuevo elemento a agregar (reemplaza con los valores adecuados)
       const newArtCustomer = {
         Foto: "https://cdn.pixabay.com/photo/2016/04/01/09/34/american-1299445_640.png",
-        Description: "Escultura 2",
-        Precio: "2000",
-        Tipo: "Escultura",
+        Description: "Pintura 2",
+        Precio: "10000",
+        Tipo: "Pintura",
       };
 
       // Realizar la solicitud POST para agregar el elemento a la base de datos (API)
