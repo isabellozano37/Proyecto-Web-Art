@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./FormExpo.css";
@@ -10,9 +11,9 @@ export default function FormExpo() {
         <div className="Logo">
           <img className="header-Logo" src={Logo} alt="Company Logo" />
         </div>
-        <div>
+        <Link to="/">
           <button className="Homes">Home</button>
-        </div>
+        </Link>
       </header>
 
       <div className="Container">
@@ -77,9 +78,11 @@ export default function FormExpo() {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Acepto condiciones de uso" />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Nuevo Expositor
-              </Button>
+              <Link to="/InicialExpo">
+                <Button variant="primary" type="submit">
+                  Nuevo Expositor
+                </Button>
+              </Link>
             </Form>
           </div>
         </div>
