@@ -17,7 +17,7 @@ function ButtonOptions() {
       </button>
       {optionsVisible && (
         <div className="header-button-options">
-          <Link to="/PaginaExpo">
+          <Link to="/PaginaExpo" className="option">
             <div
               className="option"
               onClick={() => handleOptionClick("Nuevo exponente")}
@@ -25,7 +25,7 @@ function ButtonOptions() {
               Nuevo exponente
             </div>
           </Link>
-          <Link to="/PaginaBou">
+          <Link to="/PaginaBou" className="option">
             <div
               className="option"
               onClick={() => handleOptionClick("Nuevo comprador")}
