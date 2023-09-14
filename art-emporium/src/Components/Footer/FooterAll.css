@@ -32,3 +32,11 @@
     font-size: 25px;
     margin-left: 30px;
 }
+
+@media screen and (max-width: 390px) {
+    .footer-div-icon,
+    .footer-div-icons {
+        width: 100%; 
+        padding: 10px; 
+    }
+}

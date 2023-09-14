@@ -8,3 +8,9 @@
     transition: background-color 0.3s ease;
     }
 
+    @media screen and (max-width: 390px) {
+        .body-button-admin {
+            padding: 8px 20px; 
+            font-size: 14px; 
+        }
+    }

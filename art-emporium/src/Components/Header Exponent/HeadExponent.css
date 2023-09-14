@@ -60,3 +60,38 @@
   .arte:hover {
     background-color: #c7baba; 
   }
+
+  @media screen and (max-width: 390px) {
+    header {
+        height: 80px;
+        padding: 0 20px; 
+    }
+
+    .header-LogoCompany {
+        width: 100px; 
+        height: 80px; 
+    }
+
+    .divLogo,
+    .divButton {
+        width: 50%; 
+        height: 80px; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active-header-button,
+    .header-button {
+        padding: 8px 20px; 
+        margin-left: 20px; 
+    }
+
+    .header-button {
+        background-color: #d9d9d9; 
+        color: rgb(0, 0, 0); 
+    }
+
+    .header-button:hover {
+        background-color: #6b6b6b; 
+    }
+}

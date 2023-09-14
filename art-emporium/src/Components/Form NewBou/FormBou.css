@@ -77,4 +77,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15%;
   }
+
+  @media screen and (max-width: 390px) {
+    .headArts {
+        padding: 0 10px; 
+    }
+
+    .Logos {
+        width: 100%; 
+        margin-left: 0; 
+        justify-content: center;
+    }
+
+    .header-Logos {
+        width: 80px; 
+    }
+
+    .Hom {
+        font-size: small; 
+        margin-right: 10px; 
+    }
+
+    .Containers {
+        margin-bottom: 0; 
+    }
+
+    .Imgs {
+        margin-right: 0; 
+        margin-bottom: 0; 
+    }
+
+    .TextandForms {
+        margin-right: 0; 
+    }
+
+    .Forms1 {
+        margin-right: 0;
+    }
+}

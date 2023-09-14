@@ -5,7 +5,6 @@
     cursor: pointer;
     text-align: left;
     margin-left: 27%;
-    margin-top: 2%;
 }
 
 .ButtonArte-options{
@@ -29,7 +28,7 @@
     font-size: x-large;
     color: #000000;
     text-align: center;
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(254, 249, 249);
     border: 1px solid #ccc;
     border-radius: 3px;
     cursor: pointer;

@@ -41,3 +41,22 @@ body{
 .Imags{
     width: 53%;
 }
+
+@media screen and (max-width: 390px) {
+  body {
+    font-size: medium; 
+  }
+
+  .Textos {
+    margin-top: 5%; 
+    margin-right: 5%; 
+  }
+
+  .Div2 {
+    width: 80%; 
+  }
+
+  .Imags {
+    width: 100%; 
+  }
+}

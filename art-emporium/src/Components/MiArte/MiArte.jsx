@@ -22,42 +22,45 @@ export default function MiArte() {
       </header>
       <body>
         <div className="container-card">
-          <div class="card">
+        <div class="card">
             <figure>
-              <img  />
+              <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693300418/ludwig-van-beethoven-62844_640_ido3qx.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLA BLA BLA</h3>
-              <p>mamawevaso</p>
+            <h5>Van Beethoven, Anónimo</h5>
+              <p>Busto de Beethoven, gran músico.</p>
+              <p>Valor 500.00€</p>
               <img
-                id="delete-logo"
-                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
+                id="Carrito"
+                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693297111/3523887_m6azcd.png"
               />
             </div>
           </div>
           <div class="card">
             <figure>
-              <img  />
+              <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693297161/pinturas-modernas-al-oleo1_vze5o0.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLI BLI BLI</h3>
-              <p>mamawevaso</p>
+              <h5>Otoño Cálido, Leonid Afremov (Ruso-Israelí)</h5>
+              <p>Cuadros Pintados con Óleo y espátula Sobre Lienzo</p>
+              <p>Valor 1,000.00€</p>
               <img
-                id="delete-logo"
-                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
+                id="Carrito"
+                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693297111/3523887_m6azcd.png"
               />
             </div>
           </div>
           <div class="card">
             <figure>
-              <img  />
+              <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693300635/acuarela-flores_nt9gmm.jpg" />
             </figure>
             <div class="contenido-card">
-              <h3>BLI BLI BLI</h3>
-              <p>mamawevaso</p>
+            <h5>Flores en Acuarela, de David Millard <br />Flores</h5>
+              <p>Pintura de flores en jarrón, representativo de su apellido.</p>
+              <p>Valor 150.00€</p>
               <img
-                id="delete-logo"
-                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693216206/1200px-Delete-button.svg_kcuxjd.png"
+                id="Carrito"
+                src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693297111/3523887_m6azcd.png"
               />
             </div>
           </div>
