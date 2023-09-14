@@ -16,7 +16,7 @@ export default function BodyCart() {
 
         <div className="divButton">
           <Link to="/">
-            <button className="Home">Home</button>
+            <button className="Home">Inicio</button>
           </Link>
         </div>
 
