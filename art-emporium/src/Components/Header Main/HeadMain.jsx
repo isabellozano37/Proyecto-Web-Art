@@ -63,18 +63,20 @@ function LoginButton() {
       {showLoginForm ? (
         <form>
           <input
+            className="Confirmar"
             type="text"
             placeholder="Usuario"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
+            className="Confirmar"
             type="password"
             placeholder="Contraseña"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" onClick={handleLogin}>
+          <button type="submit" onClick={handleLogin} className="Confirmar">
             Confirmar
           </button>
         </form>

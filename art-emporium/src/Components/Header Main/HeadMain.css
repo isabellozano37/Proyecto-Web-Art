@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: x-large;
 }
 
 
@@ -43,6 +44,21 @@ header {
   
   .header-button:hover {
     background-color: #6b6b6b; 
+  }
+
+  .option{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+  }
+
+  .Confirmar{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
   }
 
   @media screen and (max-width: 390px) {

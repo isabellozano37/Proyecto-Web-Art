@@ -50,6 +50,8 @@
     display: flex;
     justify-content: center;
     margin-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 
 .ImgContainer{

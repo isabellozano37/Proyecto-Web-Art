@@ -26,10 +26,10 @@ export default function ArteMain() {
         {optionsVisiblePintura && (
         <div className="button-pintura-Escultura btn-pintura">
           <Link to="/OleoArte">
-          <div className="option" onClick={() => handleOptionClickPintura('Oleo')}>Óleo</div>
+          <div className="option1" onClick={() => handleOptionClickPintura('Oleo')}>Óleo</div>
           </Link>
           <Link to="/AcuarelaArte">
-          <div className="option" onClick={() => handleOptionClickPintura('Acuarela')}>Acuarela</div>
+          <div className="option1" onClick={() => handleOptionClickPintura('Acuarela')}>Acuarela</div>
           </Link>
         </div>
         )}
@@ -38,10 +38,10 @@ export default function ArteMain() {
         {optionsVisibleEscultura && (
         <div className="button-pintura-Escultura btn-escultura">
           <Link to="/BustosArte">
-           <div className="option" onClick={() => handleOptionClickEscultura('Bustos')}>Bustos</div>
+           <div className="option1" onClick={() => handleOptionClickEscultura('Bustos')}>Bustos</div>
           </Link>
           <Link to="/CeramicaArte">
-          <div className="option" onClick={() => handleOptionClickEscultura('Cerámica')}>Cerámica</div>
+          <div className="option1" onClick={() => handleOptionClickEscultura('Cerámica')}>Cerámica</div>
           </Link> 
         </div>
         )}

@@ -41,11 +41,11 @@ function FormularioSubirArte() {
     <>
       <div className="ButtonArte">
         <select value={selectedProduct} onChange={handleProductChange}>
-          <option value="">Arte</option>
-          <option className="ButtonArte-options" value="Pintura">
+          <option value="" className="Confirmar">Arte</option>
+          <option className="Confirmar" value="Pintura">
             Pintura
           </option>
-          <option className="ButtonArte-options" value="Escultura">
+          <option className="Confirmar" value="Escultura">
             Escultura
           </option>
         </select>

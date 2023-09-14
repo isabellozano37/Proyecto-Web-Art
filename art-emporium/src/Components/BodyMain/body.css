@@ -8,22 +8,20 @@ body{
   background-image: url(https://res.cloudinary.com/da7ffijqs/image/upload/v1693330332/fondo1_whhc7z.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 85vh;
   font-family: 'MiFuentePersonalizada';
   font-size: x-large;
 }
 
 .Saludos {
-  font-size: x-large;
   text-align: center;
 }
 
 .Contain{
-  font-size: larger;
   display: flex;
   justify-content: center;
-  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .Textos{
@@ -44,19 +42,19 @@ body{
 
 @media screen and (max-width: 390px) {
   body {
-    font-size: medium; 
+    font-size: medium;
   }
 
   .Textos {
-    margin-top: 5%; 
-    margin-right: 5%; 
+    margin-top: 5%;
+    margin-right: 5%;
   }
 
   .Div2 {
-    width: 80%; 
+    width: 80%;
   }
 
   .Imags {
-    width: 100%; 
+    width: 100%;
   }
 }
