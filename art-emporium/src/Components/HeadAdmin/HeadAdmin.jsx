@@ -13,10 +13,10 @@ export default function Headeradmin() {
         <button className="header-button-admin">Administrador</button>
       </div>
 
-      <Link to="/">
+      <Link to="/" className="header-text">
         <div className="divButton">
           <a className="header-text" href="#">
-            Home
+            Inicio
           </a>
         </div>
       </Link>
