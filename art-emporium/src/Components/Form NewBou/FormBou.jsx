@@ -12,7 +12,7 @@ export default function FormBou() {
           <img className="header-Logos" src={Logo} alt="Company Logo" />
         </div>
         <Link to="/">
-          <button className="Hom">Home</button>
+          <button className="Hom">Inicio</button>
         </Link>
       </header>
 

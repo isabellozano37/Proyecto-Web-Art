@@ -41,6 +41,14 @@ body{
     margin-left: 16%;
 }
 
+.option1{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+  }
+
 @media screen and (max-width: 390px) {
     .body-button {
         padding: 5px 10px;

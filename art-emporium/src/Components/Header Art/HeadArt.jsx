@@ -13,7 +13,7 @@ export default function HeaderArt() {
         <div className="divButton">
           <button className="Arte">Arte</button>
           <Link to="/">
-            <button className="Home">Home</button>
+            <button className="Home">Inicio</button>
           </Link>
           <Link className="Carritocompra" to="/PaginaCompra">
             <button className="Carritocompra">

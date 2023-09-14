@@ -105,3 +105,32 @@
   .save-button:hover, .cancel-button:hover {
     opacity: 0.8;
   }   
+
+  @media screen and (max-width: 390px) {
+  
+    .art-customer {
+      font-size: 14px;
+    }
+ 
+    .delete-button,
+    .add-button {
+      font-size: 12px;
+    }
+  
+    .art-customer {
+      margin: 5px 0;
+    }
+  
+    .button-container {
+      flex-direction: row;
+    }
+  
+    .form-buttons {
+      flex-direction: row;
+    }
+  
+    .save-button,
+    .cancel-button {
+      font-size: 14px;
+    }
+  }
