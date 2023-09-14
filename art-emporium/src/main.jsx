@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 import FooterAll from './Components/Footer/FooterAll'
 import PaginaInicial from './Views/PaginaInicial/PaginaInicial';
 import PaginaArte from './Views/PaginaArte/PaginaArte';
@@ -47,3 +48,4 @@ import PaginaAdmi from './Views/PaginaAdmi/PaginaAdmi';
    </BrowserRouter>
    </>
  )
+
