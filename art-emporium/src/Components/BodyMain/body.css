@@ -38,6 +38,7 @@ body{
 
 .Imags{
     width: 53%;
+
 }
 
 @media screen and (max-width: 390px) {
@@ -57,4 +58,5 @@ body{
   .Imags {
     width: 100%;
   }
+
 }
