@@ -127,7 +127,7 @@ export default function SubirArte() {
           <div className="SubirArte">Subir Arte</div>
         <Link to="/InicialExpo">
           <div>
-          <button className="Homes">Home</button>
+          <button className="Homes">Inicio</button>
           </div>
         </Link>
         

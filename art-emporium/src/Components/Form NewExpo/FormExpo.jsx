@@ -12,7 +12,7 @@ export default function FormExpo() {
           <img className="header-Logo" src={Logo} alt="Company Logo" />
         </div>
         <Link to="/">
-          <button className="Homes">Home</button>
+          <button className="Homes">Inicio</button>
         </Link>
       </header>
 

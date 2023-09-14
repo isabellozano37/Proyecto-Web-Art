@@ -16,7 +16,7 @@ export default function MiArte() {
 
         <Link to="/InicialExpo">
           <div>
-          <button className="Homes">Home</button>
+          <button className="Homes">Inicio</button>
           </div>
         </Link>
       </header>
