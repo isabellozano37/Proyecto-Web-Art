@@ -5,7 +5,7 @@ export const ArtCustomerHandler = {
         loadArtCustomer(){
             return ArtCustomerService.getAllArtCustomer();
         }
-       
     }
+    
     
     export default ArtCustomerHandler

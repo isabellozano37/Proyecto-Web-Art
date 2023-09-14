@@ -25,11 +25,11 @@ export default function ArteMain() {
         <button className="body-button" onClick={toggleOptionsPintura}>Pintura</button>
         {optionsVisiblePintura && (
         <div className="button-pintura-Escultura btn-pintura">
-          <Link to="/OleoArte">
-          <div className="option" onClick={() => handleOptionClickPintura('Oleo')}>Óleo</div>
+          <Link to="/OleoArte" className="option1">
+          <div className="option1" onClick={() => handleOptionClickPintura('Oleo')}>Óleo</div>
           </Link>
-          <Link to="/AcuarelaArte">
-          <div className="option" onClick={() => handleOptionClickPintura('Acuarela')}>Acuarela</div>
+          <Link to="/AcuarelaArte" className="option1">
+          <div className="option1" onClick={() => handleOptionClickPintura('Acuarela')}>Acuarela</div>
           </Link>
         </div>
         )}
@@ -37,11 +37,11 @@ export default function ArteMain() {
         <button className="body-button" onClick={toggleOptionsEscultura}>Escultura</button>
         {optionsVisibleEscultura && (
         <div className="button-pintura-Escultura btn-escultura">
-          <Link to="/BustosArte">
-           <div className="option" onClick={() => handleOptionClickEscultura('Bustos')}>Bustos</div>
+          <Link to="/BustosArte" className="option1">
+           <div className="option1" onClick={() => handleOptionClickEscultura('Bustos')}>Bustos</div>
           </Link>
-          <Link to="/CeramicaArte">
-          <div className="option" onClick={() => handleOptionClickEscultura('Cerámica')}>Cerámica</div>
+          <Link to="/CeramicaArte" className="option1">
+          <div className="option1" onClick={() => handleOptionClickEscultura('Cerámica')}>Cerámica</div>
           </Link> 
         </div>
         )}

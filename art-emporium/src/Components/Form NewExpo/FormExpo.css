@@ -66,6 +66,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
 }
 
 .Form1 {
@@ -76,4 +78,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15%;
+}
+
+@media screen and (max-width: 390px) {
+  .headArt {
+      padding: 0 10px; 
+  }
+
+  .Logo {
+      width: 100%; 
+      margin-left: 0; 
+      justify-content: center;
+  }
+
+  .header-Logo {
+      width: 80px; 
+  }
+
+  .Homes {
+      font-size: x-small; 
+      margin-right: 10px; 
+  }
+
+  .Container {
+      margin-bottom: 0; 
+  }
+
+  .Img {
+      margin-right: 0; 
+      margin-bottom: 0; 
+  }
+
+  .TextandForm {
+      margin-right: 0; 
+  }
+
+  .Form1 {
+      margin-right: 0; 
+  }
+
+  .Button {
+      margin-bottom: 5%; 
+  }
 }

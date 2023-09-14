@@ -1,6 +1,6 @@
 import Logo from "../../img/Logo.png";
 import "./Tipos de Arte.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Oleo() {
   return (
@@ -11,24 +11,28 @@ export default function Oleo() {
         </div>
 
         <Link className="ArteMio" to="/PaginaArte">
-            <button className="ArteMio">Arte</button>
+          <button className="ArteMio">Arte</button>
         </Link>
 
         <div className="divButton">
           <Link to="/">
-            <button className="Home">Home</button>
+            <button className="Home">Inicio</button>
           </Link>
         </div>
 
-        <button className="CarritocompraArte">
-          <img
-            className="CarritocompraArte"
-            src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"
-          />
-        </button>
+        <Link className="Carritocompra1" to="/PaginaCompra">
+          <button className="Carritocompra1">
+            <img
+              className="Carritocompra1"
+              src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"
+            />
+          </button>
+        </Link>
       </header>
       <body>
-        <div className="Title"><h1>Óleo</h1></div>
+        <div className="Title">
+          <h1>Óleo</h1>
+        </div>
         <div className="container-card">
           <div class="card">
             <figure>
@@ -49,7 +53,7 @@ export default function Oleo() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693299304/cuadro-de-flores-al-oleo-con-espatula_xh8xr1.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Patio La Abuela, Mikki Senkarik(Artista EEUU)</h5>
+              <h5>Patio La Abuela, Mikki Senkarik(Artista EEUU)</h5>
               <p>Pintura de flores en paisaje pintados con espátula y óleo.</p>
               <p>Valor 800.00€</p>
               <img
@@ -63,7 +67,7 @@ export default function Oleo() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693301098/pintura-oleo_dvq5oh.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Camino Primaveral, Leonid Afre</h5>
+              <h5>Camino Primaveral, Leonid Afre</h5>
               <p>Paisajes Pintado al Óleo Espátula Sobre Lienzo.</p>
               <p>Valor 200.00€</p>
               <img
@@ -77,7 +81,10 @@ export default function Oleo() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693301433/pintura-abatracta-acuarela_jkteia.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Intensidad, <br />Anónimo</h5>
+              <h5>
+                Intensidad, <br />
+                Anónimo
+              </h5>
               <p> Caballo Pintado al Óleo Espátula Sobre Lienzo.</p>
               <p>Valor 150.00€</p>
               <img

@@ -1,6 +1,6 @@
 import Logo from "../../img/Logo.png";
 import "./Tipos de Arte.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Bustos() {
   return (
@@ -11,31 +11,35 @@ export default function Bustos() {
         </div>
 
         <Link className="ArteMio" to="/PaginaArte">
-            <button className="ArteMio">Mi Arte</button>
+          <button className="ArteMio">Mi Arte</button>
         </Link>
 
         <div className="divButton">
           <Link to="/">
-            <button className="Home">Home</button>
+            <button className="Home">Inicio</button>
           </Link>
         </div>
 
-        <button className="CarritocompraArte">
-          <img
-            className="CarritocompraArte"
-            src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"
-          />
-        </button>
+        <Link className="Carritocompra1" to="/PaginaCompra">
+          <button className="Carritocompra1">
+            <img
+              className="Carritocompra1"
+              src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1692950303/pngegg_snkldy.png"
+            />
+          </button>
+        </Link>
       </header>
       <body>
-        <div className="Title"><h1>Bustos</h1></div>
+        <div className="Title">
+          <h1>Bustos</h1>
+        </div>
         <div className="container-card">
           <div class="card">
             <figure>
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693294814/nefertiti-6650993_640_kczs4c.webp" />
             </figure>
             <div class="contenido-card">
-            <h5>Nefertiti, Anónimo</h5>
+              <h5>Nefertiti, Anónimo</h5>
               <p>Busto de la reina egipcia Nefertiti.</p>
               <p>Valor 8.000.000€</p>
               <img
@@ -49,7 +53,7 @@ export default function Bustos() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693294814/ai-generated-7734186_640_gxxvjk.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Carnaval, Anónimo</h5>
+              <h5>Carnaval, Anónimo</h5>
               <p>Busto de fantasía, la alegría del carnaval veneciano.</p>
               <p>Valor 500.00€</p>
               <img
@@ -63,7 +67,7 @@ export default function Bustos() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693294814/ai-generated-8172924_640_dqc6wc.webp" />
             </figure>
             <div class="contenido-card">
-            <h5>Aristóteles, Anónimo</h5>
+              <h5>Aristóteles, Anónimo</h5>
               <p>Busto de Aristóteles, gran Filósofo griego.</p>
               <p>Valor 100.000€</p>
               <img
@@ -77,7 +81,7 @@ export default function Bustos() {
               <img src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693300418/ludwig-van-beethoven-62844_640_ido3qx.jpg" />
             </figure>
             <div class="contenido-card">
-            <h5>Van Beethoven, Anónimo</h5>
+              <h5>Van Beethoven, Anónimo</h5>
               <p>Busto de Beethoven, gran músico.</p>
               <p>Valor 500.00€</p>
               <img
