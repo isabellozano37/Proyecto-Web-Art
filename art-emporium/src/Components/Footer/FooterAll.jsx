@@ -8,7 +8,7 @@ export default function FooterAll() {
 
       <div className="footer-div-icon">
 
-        <p className='footer-name-company'><strong>Art Living Imporium</strong></p>
+        <p className='footer-name-company'><strong>Art Living Emporium</strong></p>
 
         <div className='groupIcon'>
           <img className="footer-icon" src="https://res.cloudinary.com/dhme3c8ll/image/upload/v1693214972/llamada_pkntz4.png" alt="Call" />
